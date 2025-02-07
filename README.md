@@ -18,9 +18,9 @@ GET /
 Response Format (200 OK)
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "kazeemj565@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
+  "github_url": "https://github.com/kazeemj565/hng_task0"
 }
 ```
 
@@ -48,9 +48,4 @@ uvicorn fastapi_public_api:app --reload
 
 Deployment
 The API was deployed to a publicly accessible endpoint.The platform used  is Render.
-
-Links
-- [HNG Internship](https://hng.tech/)
-- [Hire Python Developers](https://hng.tech/hire/python-developers)
-- [Hire Other Developers](https://hng.tech/hire/)
-
+The URL is: https://hng-task0-o1j3.onrender.com
