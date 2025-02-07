@@ -16,36 +16,13 @@ Technology Stack
 API Endpoint
 GET /
 Response Format (200 OK)
-```json
+json
 {
   "email": "kazeemj565@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/kazeemj565/hng_task0"
 }
-```
-
-Setup Instructions
-1. Clone the Repository
-```sh
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-```
-
-2. Create a Virtual Environment (Optional but Recommended)**
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```
-
-3. Install Dependencies**
-```sh
-pip install -r requirements.txt
-```
-4. Run the API Locally**
-```sh
-uvicorn fastapi_public_api:app --reload
-```
 
 Deployment
 The API was deployed to a publicly accessible endpoint.The platform used  is Render.
-The URL is: https://hng-task0-o1j3.onrender.com
+The URL is: https://hng-task0-1-1sg3.onrender.com
